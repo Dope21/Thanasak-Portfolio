@@ -1,0 +1,61 @@
+.project{
+    color: var(--text-color);
+
+    .projectsLink{
+        outline: 2px solid transparent;
+        outline-offset: 2px;
+        color: var(--highlight);
+        text-underline-offset: 3px;
+    }
+
+    &__title{
+        margin-bottom: 1rem;
+
+        &-icon{
+            vertical-align: middle;
+            margin: 0 .5rem;
+        }
+
+        &-name{
+            margin: 0;
+            display: inline-block;
+            font-size: 20px;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
+        }
+
+        &-years{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 0.75rem;
+            padding: 0 4px;
+            background: rgba(226, 232, 240, 0.16);
+            margin-left: 5px;
+        }
+    }
+
+    &__subtitle{
+        text-align: justify;
+        text-indent: 1em;
+    }
+
+    &__list{
+        margin: 1rem 0 1rem 1rem;
+        
+        &-title{
+            padding: 0 .25rem;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-right: 0.5rem;
+            color: var(--list-color);
+            background: var(--list-bg);
+        }
+    }
+
+    &__img{
+        border-radius: 0.5rem;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+}
