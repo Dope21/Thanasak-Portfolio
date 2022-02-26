@@ -50,6 +50,10 @@
             color: var(--list-color);
             background: var(--list-bg);
         }
+
+        a{
+            color: var(--highlight);
+        }
     }
 
     &__img{

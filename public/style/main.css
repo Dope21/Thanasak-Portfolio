@@ -148,6 +148,10 @@ body {
   background: var(--link-bg);
 }
 
+.nav__link-icon {
+  margin-left: 5px;
+}
+
 .nav__button {
   margin-left: auto;
   display: -webkit-box;
@@ -532,7 +536,7 @@ body {
 }
 
 .projects__items-name {
-  margin: .5rem 0 0;
+  margin: .5rem 0 .5rem;
   font-size: 20px;
 }
 
@@ -540,6 +544,11 @@ body {
   font-size: 14px;
   margin: 0;
   margin-top: 5px;
+}
+
+.projects__items-link {
+  font-size: 14px;
+  margin-left: 5px;
 }
 
 .projects hr {
@@ -616,6 +625,10 @@ body {
   margin-right: 0.5rem;
   color: var(--list-color);
   background: var(--list-bg);
+}
+
+.project__list a {
+  color: var(--highlight);
 }
 
 .project__img {
