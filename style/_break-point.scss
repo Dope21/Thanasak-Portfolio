@@ -39,9 +39,9 @@
             grid-template-columns: 1fr;
         }
 
-        // &__items-img{
-        //     height: 270px;
-        // }
+        &__items-img img{
+            max-height: 100%;
+        }
     }
     
 }
