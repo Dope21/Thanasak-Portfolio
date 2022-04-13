@@ -39,9 +39,9 @@
             grid-template-columns: 1fr;
         }
 
-        // &__items-img{
-        //     height: 270px;
-        // }
+        &__items-img img{
+            max-height: 100%;
+        }
     }
     
 }
@@ -64,12 +64,5 @@
         &__item-logo img{
             width: 40px;
         }
-    }
-
-    .projects{
-
-        // &__items-img{
-        //     height: 142px;
-        // }
     }
 }
