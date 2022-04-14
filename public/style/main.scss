@@ -51,7 +51,6 @@ body{
 }
 
 .container{
-    // border: 1px solid black;
     width: 100%;
     height: 100%;
     padding-bottom: 2rem;
@@ -62,6 +61,11 @@ body{
     max-width: 768px;
     margin: 0 auto;
     padding: 3.5rem 1rem 0;
+}
+
+
+.highlight{
+    color: var(--highlight);
 }
 
 .doggo{
@@ -76,7 +80,6 @@ body{
     position: relative;
     width: 100%;
     max-width: 520px;
-    // max-width: 52ch;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -93,5 +96,4 @@ body{
 @import './skills';
 @import './projects';
 @import './project';
-// @import './content';
 @import './break-point';
