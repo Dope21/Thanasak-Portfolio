@@ -537,7 +537,9 @@ body {
 
 .projects__items-name {
   margin: .5rem 0 .5rem;
-  font-size: 20px;
+  font-size: 17px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
 }
 
 .projects__items-desc {
